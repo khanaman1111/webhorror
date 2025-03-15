@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://images.unsplash.com/photo-1476370648495-3533f64427a2?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            /* color: azure; */
+        }
+        @keyframes rotate{
+            from{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+
+    ul {
+    display: flex;
+    /* justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; */
+    gap: 49px;
+    color: white;
+}
+li{
+    display: inline-block;
+    gap: 10px;
+    color: red;
+
+}
+
+li a {
+    text-decoration: none;
+  display: inline-block;
+  color: red;
+  
+}
+li a:hover{
+    background-color: #f0e8e917;
+    color: rgba(245, 8, 8, 0.26);
+    /* border: 2px solid black; */
+}
+.divnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: anchor-center;
+    border-radius: 14px;
+    border: white 1px solid;
+}
+.right{
+    gap: 18px;
+    display: flex;
+}
+.button{
+    border-radius: 50px;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.233);
+    border: 2px solid white;
+    border-radius: 20px;
+    gap: 20px;
+    padding: 20px;
+}
+.left {
+    width: 25%; 
+    height: 100vh;
+    border: 2px solid white;
+    border-radius: 15px;
+    overflow-y: auto;
+    color: red;
+}
+.right2 {
+    flex: 1;
+    height: 94vh;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    overflow-y: auto; 
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    color: red;
+}
+.right2 img {
+    max-width: 100%; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-bottom: 20px;
+}
+
+.left-cont{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+nav ul li:hover{
+    /* background-color: #f0e8e917; */
+    color: darkgray;
+}
+h2{
+    color: transparent;
+    font-size: 50px;
+    padding: 50px;
+    background-image: url(https://images.unsplash.com/photo-1625472603517-1b0dc72846ab?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-clip: text;
+}
+@keyframes Scal{
+    from{
+
+    }
+    to{
+        transform: scale(1.7);
+        border-top-color: rgba(250, 249, 249, 0.116);
+    }
+}
+.logo{
+    /* border: white; */
+    animation: rotate 1s linear infinite;
+}
+.logo img{
+    border-radius: 50%;
+}
+button{
+    border-radius: 20px;
+    color: rgba(255, 0, 0, 0.664);
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.288);
+    color: rgb(248, 3, 3);
+}
+.imiscale:hover{
+    transform:scale(1.2);
+    border: 20px solid rgba(24, 21, 21, 0.137);
+}
+.conan:hover{
+    color: rgba(247, 7, 7, 0.76);
+    font-family: 'Nosifer', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.fonv:hover{
+    color: rgba(247, 7, 7, 0.76);
+    font-family: 'Nosifer', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h3{
+    color: red;
+}
+.pfont:hover{
+    color: rgba(247, 7, 7, 0.76);
+}
+
+    
+
+/* @keyframes bag{
+    from{
+
+    }
+    to{
+        transform: scale(2.1);
+        color: white;
+    }
+} */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+        
+       
+    </style>
+</head>
+<body>
+    <div class="divnav">
+        <div class="logo"><img src="images/DALL·E 2025-03-15 15.00.31 - A highly detailed horror-themed logo featuring a sinister skull with glowing red eyes, surrounded by dark mist and eerie gothic elements. The design i.webp" alt="" height="50px"></div>
+    <nav>
+        <ul>
+            <li><a href="#"></a>Home</li>
+            <li><a href="#"></a>Service</li>
+            <li><a href="#"></a>About</li>
+        </ul>
+    </nav>
+    <div class="right">
+        <a href="#"><button>Sign Up</button></a>
+        <a href="#"><button>Login</button></a>
+    </div>
+</div>
+<div class="container">
+
+    <div class="left">
+        <ul class="left-cont">
+            <h3>Horror Movie</h3>
+            <li ><a href="#m1" class="fonv">The Conjuring (2013)</a></li>
+            <li><a href="#m2" class="fonv">Insidious (2010)</a></li>
+            <li><a href="#m3" class="fonv">  Sinister (2012)</a></li>
+            <li ><a href="#m4" class="fonv">The Autopsy of Jane Doe (2016)</a></li>
+            <!-- <li><a href="#m5" >Home</a></li>
+            <li><a href="" >Home</a></li>
+            <li><a href="" >Home</a></li> -->
+        </ul>
+    
+    </div><br>
+    <div class="right2">
+      <h3 id="m1" class="conan">The Conjuring (2013)</h3>
+      <img src="images/Conj.jpg" alt="" height="300px" width="500px" class="imiscale">
+      <p class="pfont">Based on real-life paranormal investigators Ed and Lorraine Warren, this film delivers classic haunted house chills. Paranormal investigators Ed and Lorraine Warren help a family haunted by a dark spirit in their farmhouse. The film is based on real-life events and delivers eerie suspense with chilling scares.
+      
+      </p>
+      <h3 id="m2" class="conan">Insidious (2010)</h3>
+      
+      <img src="images/insidi.jpg" alt="" height="300px" width="500px"class="imiscale">
+      <p class="pfont"> A terrifying journey into "The Further" as a family deals with a sinister entity.A couple's son falls into a mysterious coma, and they soon realize he is trapped in a dark astral realm called "The Further," where malevolent entities lurk.  
+      </p>
+      <h3 id="m3" class="conan">
+        Sinister (2012)
+      </h3>
+      
+      <img src="images/Sini.jpg" alt="" height="300px" width="500px"class="imiscale">
+      <p class="pfont">A true-crime writer finds eerie home videos that lead to horrifying events. A true-crime writer moves into a house where a family was murdered, discovering eerie home videos that reveal a sinister force behind the killings. 
+      </p>
+      <h3 id="m4" class="conan">The Autopsy of Jane Doe (2016)</h3>
+      
+      <img src="images/TAOJD.jpg" alt="" height="300px" width="500px" class="imiscale">
+      <p class="pfont"> A father and son morticians examine a mysterious corpse with terrifying consequences.A father-son mortician duo examines an unidentified corpse with no visible wounds, only to experience terrifying supernatural occurrences. 
+      <!-- </p>
+      <h3 id="m5">The Conjuring (2013)</h3>
+      <p class="pfont">Based on real-life paranormal investigators Ed and Lorraine Warren, this film delivers classic haunted house chills. Paranormal investigators Ed and Lorraine Warren help a family haunted by a dark spirit in their farmhouse. The film is based on real-life events and delivers eerie suspense with chilling scares.
+      
+      </p> -->
+    </div>
+<!-- </div>
+<div class="boxim-runner"></div> -->
+
+</body>
+</html>
